@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.NavBar ul{
+  list-style: none;
+  display: flex;
+  text-align: right;
+  background: blue;
+  color: #fff;
+  margin:0px ;
+ 
+}
+.NavBar ul li{
+  padding: 15px;
+  gap: 15px;
+  margin: 2px 2px ;
+}
+.NavBar ul a {
+  color: #fff;
+  text-decoration: none;
+  width: 120px;
+  text-align: center;
+}
+.NavBar ul a:hover{
+  color: blue;
+  background-color:#ffff ;
+  font-weight: bold;
+}
